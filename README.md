@@ -1,11 +1,11 @@
 # ggblog
-a grubgrab cat blogs server
+a grubgrab cat blogs server (use hugo)
 
 ## 项目介绍 
-基于gin实现的一个高性能动态博客后端
+基于gin实现的一个高性能动态hugo博客后端
 
-## 使用技术
-gin
+## 引用技术
+gin hugo
 
 ## 支持功能
 
@@ -13,7 +13,7 @@ gin
 | -- | -- | -- |
 | 静态资源获取 | 实现中 | b0.1 |
 | 资源过滤 | 未实现 | |
-| 后台功能 | 未实现 | |
+| 后台功能 | 实现中 | |
 
 ## 技术实现与技术细节
 

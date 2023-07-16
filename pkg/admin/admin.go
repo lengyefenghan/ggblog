@@ -1,10 +1,14 @@
 package admin
 
-import "github.com/gin-gonic/gin"
+import (
+	"github.com/gin-gonic/gin"
+)
 
 // 进行登录校验
 func Adminlogin(c *gin.Context) {
-	c.String(200, "login")
+	c.HTML(200, "admin/login.html", gin.H{
+		"title": "大螃蟹猫",
+	})
 
 }
 
